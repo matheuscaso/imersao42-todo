@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List </title>
+    <link rel="stylesheet" href="css/createtodos.css">
+</head>
+<body>
+   
+<div class="container">
+    <div class="wrapper">
+        <header> 
+            <img src="img/logo.png" alt="logo">
+            ToDo List Imersão 42
+            
+        </header>
+            
+            <div class="inputfield">
+                <span>Descreva a sua tarefa abaixo:</span>
+                <input id= "tarefa" type="text"  placeholder="A sua tarefa do dia é...">
+
+                <span>Descreva a sua tag abaixo:</span>
+                <input id= "tag" type="text"  placeholder="Ex: Casa,Escola,Trabalho...">
+
+
+                <span>Data de previsão do término da tarefa:</span>
+                <input id = "dataFinal"type="date"  placeholder="Data Limite para completar sua tarefa...">
+            </div>
+
+            <div class="footer">
+                <button><a href="homepage.html">Voltar</a></button>
+                <button id = "btnAdd" onclick="btnAdd()">Salvar tarefa</button>
+                
+
+                
+            </div>
+            <br><br>
+            <!--<div class = "alerta-sucesso" role ="alert" style = "display: enable;" id="alertSucess">Tarefa Adicionada com Sucesso!</div> -->
+        
+    </div>
+</div>
+<script src="js/createtodos.js"></script>
+</body>
+</html>

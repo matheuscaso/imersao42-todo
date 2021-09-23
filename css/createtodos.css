@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
+}
+body{
+    background-image: url(../img/bg-body.svg);
+    margin : 0;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+img{
+    width: 60px;
+    height: 35px;
+    
+}
+
+.wrapper{
+    margin: 120px auto;
+    max-width: 480px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border: 1px solid #2e31a6 ;
+    border-radius: 10px;
+    padding: 25px;
+    height: 490px;
+    
+    box-shadow: 0 0 0.5em #2e31a6;
+}
+.wrapper header{
+    text-align: center;
+    font-size: 40px;
+    display: inline-block;
+    color:#c1211d;
+}
+
+.wrapper .inputfield{   
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+.inputfield input{
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 3px;
+    height: 30px;
+    color: #2e31a6;
+}
+.inputfield span {
+    color: #2e31a6;
+    font-size: 18px;
+}
+
+.wrapper .footer{
+
+    margin-top: 40px;
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+}
+
+.footer button{
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: #2e31a6;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.footer button a{
+    display: block;
+    text-decoration:none;
+    color: #fff;
+
+}
+.footer button:hover{
+    background:#19186d;
+}
+
+.alerta-sucesso{
+
+    background-color: #2f6931; /* Green */
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+
+
+
